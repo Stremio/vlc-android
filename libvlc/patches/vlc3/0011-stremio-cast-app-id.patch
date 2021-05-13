@@ -1,0 +1,25 @@
+From 45af632878ad0cb715660a1afa789b353ea3948f Mon Sep 17 00:00:00 2001
+From: nklhrstv <me@nikolahristov.com>
+Date: Thu, 13 May 2021 16:11:32 +0300
+Subject: [PATCH] change chromecast app id
+
+---
+ modules/stream_out/chromecast/chromecast.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/modules/stream_out/chromecast/chromecast.h b/modules/stream_out/chromecast/chromecast.h
+index 7781708fcd..5cafe3543b 100644
+--- a/modules/stream_out/chromecast/chromecast.h
++++ b/modules/stream_out/chromecast/chromecast.h
+@@ -65,7 +65,7 @@ static const std::string NAMESPACE_RECEIVER         = "urn:x-cast:com.google.cas
+ //#define CHROMECAST_VERBOSE
+ 
+ // Media player Chromecast app id
+-#define APP_ID "CC1AD845" // Default media player aka DEFAULT_MEDIA_RECEIVER_APPLICATION_ID
++#define APP_ID "C0CAF481" // Default media player aka DEFAULT_MEDIA_RECEIVER_APPLICATION_ID
+ 
+ enum States
+ {
+-- 
+2.31.0
+
